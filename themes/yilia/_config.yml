@@ -6,12 +6,12 @@ menu:
 
 # SubNav
 subnav:
-  github: "#"
+  github: "https://github.com/lemon-zf"
   weibo: "#"
-  rss: "#"
+  #rss: "#"
   zhihu: "#"
   #douban: "#"
-  #mail: "#"
+  mail: "zhang91026@gmail.com"
   #facebook: "#"
   #google: "#"
   #twitter: "#"
@@ -40,7 +40,7 @@ google_analytics: ''
 favicon: /favicon.png
 
 #你的头像url
-avatar:
+avatar: 
 #是否开启分享
 share_jia: true
 share_addthis: false
