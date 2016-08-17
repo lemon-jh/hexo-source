@@ -1,7 +1,8 @@
 ---
 title: Hexo搭建博客并实现多终端同步管理
-date: 2016-08-16 13:47:43
-tags:
+date: 2016-08-13 13:47:43
+tags: [hexo,github,blog]
+categories: [hexo,github,blog]
 ---
 
 【hello，hexo！】终于搞定了hexo博客多终端同步管理了，现整理出过程分享出来，同时自己也再顺一遍。如果有错误欢迎指正~。
@@ -78,6 +79,8 @@ git add . #添加目录下所有文件
 git commit -m "更新说明" #提交并添加更新说明
 git push -u origin master #推送更新到远程仓库
 B电脑拉下远程仓库文件
+
+<!--more-->
 
 在B电脑上同样先安装好node、git、ssh、hexo，然后建好hexo文件夹，安装好插件，（然后选做：将备份到远程仓库的文件及文件夹删除），然后执行以下命令：
 
